@@ -1,0 +1,37 @@
+type: edu
+files:
+  - name: __init__.py
+    visible: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 31
+        length: 577
+        placeholder_text: |-
+          Ciao questo è un commento particolare che si chiama 'docstring'
+              e descrive il funzionamento del programma chiamato 'outputConsole'
+              che in particolare ha una unica istruzione 'pass' che non esegue nulla
+          Inserisci qui l'output della console python
+  - name: tests/__init__.py
+    visible: false
+  - name: tests/test_task.py
+    visible: false
+  - name: ComeEseguireNellaConsole.py
+    visible: false
+  - name: ComeSalvareOutputTaskInPdf.py
+    visible: false
+  - name: runConfigurations/ComeEseguireNellaConsole.run.xml
+    visible: false
+    propagatable: false
+  - name: runConfigurations/ComeSalvareOutputTaskInPdf.run.xml
+    visible: false
+    propagatable: false
+  - name: PyCharm-saveTaskAsPdf.zip
+    visible: false
+    is_binary: true
+  - name: PyCharm_run_mp4.py
+    visible: false
+  - name: PyCharm-runInstruction2PythonConsole.zip
+    visible: false
+    is_binary: true
+solution_hidden: true

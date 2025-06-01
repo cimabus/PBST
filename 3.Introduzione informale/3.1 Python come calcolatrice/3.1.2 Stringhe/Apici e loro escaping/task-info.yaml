@@ -1,0 +1,66 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 578
+        length: 21
+        placeholder_text: "# TODO"
+      - offset: 702
+        length: 87
+        placeholder_text: "# TODO inserire qui la risposta della console python"
+      - offset: 883
+        length: 79
+        placeholder_text: "\"Questa 'parola' è tra apici, quest'altra \\\"parola\\\" invece\
+      \ è tra apici doppi\""
+      - offset: 1014
+        length: 36
+        placeholder_text: "# TODO"
+      - offset: 1060
+        length: 87
+        placeholder_text: "# TODO inserisci un prompt a tuo piacere"
+      - offset: 1153
+        length: 89
+        placeholder_text: "# TODO"
+      - offset: 1252
+        length: 77
+        placeholder_text: "# TODO"
+      - offset: 1335
+        length: 60
+        placeholder_text: "# TODO"
+      - offset: 1405
+        length: 1
+        placeholder_text: "# TODO"
+      - offset: 1412
+        length: 64
+        placeholder_text: "# TODO"
+      - offset: 1486
+        length: 80
+        placeholder_text: "# TODO"
+      - offset: 1572
+        length: 115
+        placeholder_text: "# TODO"
+      - offset: 1697
+        length: 28
+        placeholder_text: "# TODO"
+      - offset: 1731
+        length: 18
+        placeholder_text: "# TODO"
+      - offset: 1759
+        length: 25
+        placeholder_text: "# TODO"
+      - offset: 1790
+        length: 13
+        placeholder_text: "# TODO"
+      - offset: 1813
+        length: 26
+        placeholder_text: "# TODO"
+      - offset: 1845
+        length: 14
+        placeholder_text: "# TODO"
+  - name: tests/test_task.py
+    visible: false
+  - name: __init__.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false

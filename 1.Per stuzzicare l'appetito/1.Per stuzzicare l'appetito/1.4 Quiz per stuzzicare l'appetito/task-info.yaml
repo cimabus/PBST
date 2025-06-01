@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Il linguaggio C <span style=color:yellow> gestisce le eccezioni </span> <br>
+      meglio di Python
+    is_correct: false
+  - text: "I moduli standard di Python <span style=color:yellow> gestiscono </span>:\
+    \ <br> file e socket, <br> chiamate al sistema operativo, <br> interfacce contoolkit\
+    \ grafici."
+    is_correct: true
+  - text: Python <span style=color:yellow> non deve essere compilato </span> <br>perchè
+      è interpretato
+    is_correct: true
+  - text: "I programmi scritti in C,C++,Java <br> sono <span style=color:yellow>di solito\
+    \ più corti di </span> quelli scritti in Python"
+    is_correct: false
+message_correct: "Congratulazioni, hai svolto il task!"
+message_incorrect: "Riprova, ma prima puoi accettare il suggerimento"
+quiz_header: <strong>Seleziona le affermazioni vere:</strong>
+files:
+  - name: main.py
+    visible: true
+local_check: true

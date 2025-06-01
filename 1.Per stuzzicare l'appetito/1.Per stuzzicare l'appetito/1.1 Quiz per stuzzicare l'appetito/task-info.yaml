@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Python fornisce tipi di dati di alto livello codificando <span style=color:yellow>
+      <br> operazioni complesse in una sola istruzione
+    is_correct: true
+  - text: "In Python <span style=color:yellow>le istruzioni vengono raggruppate indentandole\
+    \ </span>, <br> senza dover usare parentesi"
+    is_correct: true
+  - text: Le variabili in Python <span style=color:yellow> <br>non devono essere dichiarate
+    is_correct: true
+  - text: Il nome Python <span style=color:yellow> <br>deriva dal serpente
+    is_correct: false
+message_correct: "Congratulazioni, hai svolto il task!"
+message_incorrect: "Riprova, ma prima puoi accettare il suggerimento"
+quiz_header: <strong>Seleziona le affermazioni vere:</strong>
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false
+local_check: true

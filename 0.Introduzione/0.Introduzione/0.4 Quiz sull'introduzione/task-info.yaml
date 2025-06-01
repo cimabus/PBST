@@ -1,0 +1,40 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: esiste una <span style=color:green> guida di riferimento <br> per il linguaggio
+      </span>
+    is_correct: true
+  - text: "esiste una <span style=color:green> guida per estendere e incorporare con\
+    \ C,C++ "
+    is_correct: true
+  - text: esistono <span style=color:green> libri gratuiti </span> dedicati all'approfondimento
+    is_correct: true
+  - text: <span style=color:yellow> letto questo tutorial si è in grado di scrivere
+      moduli e programmi in Python
+    is_correct: true
+  - text: l' <span style="color:green">interprete</span> e la <span style="color:green">libreria</span>
+      standard sono disponibili al sito <b>phyton.org</b>
+    is_correct: true
+  - text: <span style="color:green">esse</span> sono disponibili per le principali piattaforme
+      sia formato <b>sorgente</b> che <b>binario</b>
+    is_correct: true
+  - text: <span style="color:green">esse</span> sono <span style="color:green">redistribuibili
+      gratuitamente </span>
+    is_correct: true
+  - text: il tutorial è corredato da <span style=color:green> esempi che mostrano il
+      loro output
+    is_correct: true
+  - text: il tutorial vuole essere una <span style=color:red> descrizione esauriente
+      che copre ogni singola funzionalità
+    is_correct: false
+  - text: purtroppo <span style=color:red> non è presente un glossario
+    is_correct: false
+message_correct: "Congratulazioni, hai svolto il task!"
+message_incorrect: "Riprova, ma prima puoi rileggere con più attenzione"
+quiz_header: Selezionare le affermazioni vere
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false
+local_check: true

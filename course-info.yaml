@@ -1,0 +1,29 @@
+type: marketplace
+title: PBST 0.3.1.1 del 31 maggio 2025
+language: Italian
+summary: "Corso base sul tutorial standard di Python (versione 0.3.1.1) (https://docs.python.org/3/tutorial/index.html)\
+  \ \ntradotto in italiano (https://pytutorial-it.readthedocs.io/it/python3.13/)\n\
+  \n"
+vendor:
+  name: roberto lupo
+programming_language: Python
+environment: unittest
+content:
+  - 0.Introduzione
+  - 1.Per stuzzicare l'appetito
+  - 2.Usare l'interprete
+  - 3.Introduzione informale
+additional_files:
+  - name: .idea/inspectionProfiles/Project_Default.xml
+  - name: .idea/inspectionProfiles/profiles_settings.xml
+  - name: 3.Introduzione informale/__init__.py
+  - name: 3.Introduzione informale/3.0 Commenti/__init__.py
+  - name: 3.Introduzione informale/3.1 Python come calcolatrice/__init__.py
+  - name: 2.Usare l'interprete/2.1 Operazioni con l'interprete/__init__.py
+  - name: 2.Usare l'interprete/__init__.py
+  - name: 2.2 Modalità scrittura/__init__.py
+  - name: 2.2 Modalità scrittura/section-info.yaml
+  - name: 2.Usare l'interprete/2.2 Modalità scrittura/__init__.py
+  - name: LICENSE
+  - name: README.md
+yaml_version: 2

@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: nella documentazione del codice Python <br> <span style=color:yellow> non
+      si può far riferimento a sketch </span> <br> dei "<< Monty Python's Flying Circus
+      >>"
+    is_correct: false
+  - text: "Python <span style=color:yellow>è estensibile</span>, cioè può utilizzare\
+    \ programmi binari, <br> ma anche estendere programmi in altri linguaggi"
+    is_correct: true
+  - text: "il codice Python, per omogeneità con altri linguaggi, <br> <span style=color:yellow>\
+    \ accetta le parentesi </span> per raggruppare un blocco di codice"
+    is_correct: false
+  - text: "il codice Python, per omogeneità con altri linguaggi, <br> <span style=color:yellow>accetta\
+    \ la dichiarazione di variabili"
+    is_correct: false
+message_correct: "Bene, hai letto con profitto i comma 1-2, prosegui"
+message_incorrect: Prova a leggere meglio i comma 1-2
+quiz_header: Python può essere utilizzato per (seleziona se vero)
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false
+local_check: true

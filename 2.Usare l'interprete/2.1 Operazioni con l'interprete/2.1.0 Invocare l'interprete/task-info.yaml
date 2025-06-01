@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "il comando per uscire dall’interprete è <b>quit()</b>, con shortcut <b>Ctrl+D</b>(linux)\
+    \ e <b>Ctrl+Z</b>(Windows)"
+    is_correct: true
+  - text: parametri dell'interprete sono -V -c
+    is_correct: true
+  - text: per eseguire un comando l'opzione è -c
+    is_correct: true
+  - text: <b>$ python3 -h</b> visualizza l'help in Linux
+    is_correct: true
+  - text: <b>cmd> python -h</b> oppure <b>cmd> py -h </b>visualizzano l'help in Windows
+    is_correct: true
+message_correct: "Congratulazioni, hai letto con profitto il paragrafo, prosegui!"
+message_incorrect: "Riprova rileggendo meglio il paragrafo, magari accettando il suggerimento."
+quiz_header: <h3> Selezionare le affermazioni vere </h3>
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false
+local_check: true

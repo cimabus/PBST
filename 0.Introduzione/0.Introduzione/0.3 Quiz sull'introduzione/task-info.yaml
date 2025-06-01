@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: utilizza strutture dati complesse
+    is_correct: true
+  - text: è interpretato
+    is_correct: true
+  - text: è tipizzato dinamicamente
+    is_correct: true
+  - text: "l'interprete è estendibile con funzioni e tipi di dati in C,C++ o interfaccibili\
+    \ con essi"
+    is_correct: true
+  - text: utilizzato come linguaggio integrato è adatto ad estendere altre applicazioni
+    is_correct: true
+  - text: non è un linguaggio ad oggetti
+    is_correct: false
+message_correct: "Congratulazioni, hai svolto il task!"
+message_incorrect: "Riprova, ma prima puoi rileggere con più attenzione"
+quiz_header: <strong>Selezionare le affermazioni vere"</strong>
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false
+local_check: true

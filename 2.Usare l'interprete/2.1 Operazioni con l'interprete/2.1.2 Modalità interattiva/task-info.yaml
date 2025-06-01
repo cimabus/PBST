@@ -1,0 +1,36 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: <span style=color:yellow>argc</span> è l'attributo che indica la lista di
+      parametri
+    is_correct: false
+  - text: <span style=color:yellow>import sys</span> rende <span style=color:yellow>disponibile
+      al programma la lista dei parametri </span> passati dalla command line all'interprete
+    is_correct: true
+  - text: "l'<span style=color:yellow>attributo sys.argv[0]</span> esiste sempre"
+    is_correct: true
+  - text: "se l'invocazione dell'interprete non contiene nè script nè comandi allora\
+    \ <span style=color:yellow> argv[0] è impostato alla lista vuota"
+    is_correct: true
+  - text: "se l'invocazione dell'interprete contiene il parametro '-', che indica lo\
+    \ standard input, allora <span style=color:yellow>argv[0] è impostato a '-'"
+    is_correct: true
+  - text: "se l'invocazione dell'interprete contiene il parametro '-c', che indica un\
+    \ comando, allora <span style=color:yellow>argv[0] è impostato a '-c'"
+    is_correct: true
+  - text: "se l'invocazione dell'interprete contiene il parametro '-m ', che indica\
+    \ un modulo, allora <span style=color:yellow>argv[0] è impostato al path completo\
+    \ del modulo"
+    is_correct: true
+  - text: i parametri passati al comando o al modulo rispettivamente con le opzioni
+      '-c' e '-m' <span style=color:yellow>vengono processati dall'interprete
+    is_correct: false
+message_correct: "Congratulazioni, hai letto con profitto il paragrafo, prosegui!"
+message_incorrect: "Riprova rileggendo meglio il paragrafo, magari accettando il suggerimento."
+quiz_header: <h2> Selezionare le affermazioni vere </h2>
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false
+local_check: true

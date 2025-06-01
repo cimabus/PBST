@@ -1,0 +1,24 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 29
+        length: 779
+        placeholder_text: |-
+          Questo è un commento particolare che si chiama 'docstring'
+              e descrive il funzionamento del programma chiamato 'outputConsole'
+              che in particolare ha una unica istruzione 'pass' che non esegue nulla.
+              Inserisci qui l'intero output della console.
+              Attenzione:
+              Per eseguire nella console è possibile eseguire il comando
+              `Run File in Python Console' nel menù contestuale dell'editor (clicca il bottone destro del mouse)
+  - name: tests/test_task.py
+    visible: false
+  - name: __init__.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+  - name: tests/rePatterns.py
+    visible: false
+    propagatable: false

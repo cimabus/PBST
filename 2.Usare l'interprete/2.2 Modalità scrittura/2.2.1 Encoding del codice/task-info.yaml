@@ -1,0 +1,33 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: gli encoding servono per <span style=color:yellow>rappresentare i caratteri
+    is_correct: true
+  - text: "UTF-8 permette, in stringhe, identificatori e commenti, di <span style=color:yellow>rappresentare\
+    \ caratteri da molti linguaggi diversi"
+    is_correct: true
+  - text: "la <span style=color:yellow>libreria standard</span>, per permettere la compatibilità\
+    \ del codice, prevede solo la <span style=color:yellow>codifica ASCII per gli\
+    \ identificatori"
+    is_correct: true
+  - text: tra i codecs supportati da python <span style=color:yellow>l'encoding di default
+      è l'ASCII
+    is_correct: false
+  - text: "I <span style=color:yellow>file .py </span>, in Python, <span style=color:yellow>sono\
+    \ </span>processati con l’ encoding <span style=color:yellow> UTF-8 di default"
+    is_correct: true
+  - text: in linux per eseguire un file direttamente si inserisce la riga con lo shebang
+      <br> <span style=color:yellow>#!/usr/bin/env python3
+    is_correct: true
+  - text: in windows per eseguire un file .py direttamente bisogna <span style=color:yellow>
+      associarlo all'interprete
+    is_correct: true
+message_correct: "Congratulazioni, hai letto con profitto il paragrafo, prosegui!"
+message_incorrect: "Riprova rileggendo meglio il paragrafo, magari accettando il suggerimento."
+quiz_header: <h2> Selezionare le affermazioni vere </h2>
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false
+local_check: true

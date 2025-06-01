@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: La traduzione italiana &egrave aggiornata a quella inglese del 6 dicembre
+      2024
+    is_correct: true
+  - text: La traduzione &egrave curata da Riccardo Poligneri
+    is_correct: true
+  - text: Gli esempi sono tradotti in italiano
+    is_correct: false
+  - text: I principi ZEN che guidano il Python e lo stile di scrittura da tenere sono
+      tradotti in italiano
+    is_correct: true
+  - text: I Python Enhancement Proposal (PEP) costituiscono la documentazione di riferimento
+      del linguaggio
+    is_correct: true
+  - text: PEP 8 identifica i principi Zen e PEP 20 lo stile di scrittura
+    is_correct: false
+message_correct: "Congratulazioni, hai svolto il task!"
+message_incorrect: "Riprova, ma prima puoi rileggere con più attenzione"
+quiz_header: <strong>Selezionare le affermazioni vere</strong>
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false
+  - name: task.md
+    visible: false
+local_check: true

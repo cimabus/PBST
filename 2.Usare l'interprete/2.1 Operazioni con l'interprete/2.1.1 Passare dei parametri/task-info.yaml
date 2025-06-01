@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "L’interprete è in <span style=color:yellow>modalità interattiva</span>, quando\
+    \ i comandi sono letti da un terminale."
+    is_correct: true
+  - text: "Quando si verifica un errore, l’interprete emette un <span style=color:yellow>\
+    \ messaggio di errore preceduto dallo stack trace delle chiamate."
+    is_correct: true
+  - text: "<span style=color:yellow>Sui sistemi *nix* </span>( Linux,Linux-like,Unix,Unix-BSD\
+    \ ), <span style=color:yellow>gli script </span> Python possono essere <span style=color:yellow>\
+    \ direttamente eseguibili con lo shebang."
+    is_correct: true
+  - text: "<span style=color:yellow>Sui sistemi Windows </span>, gli script devono essere\
+    \ compilati, ottenendo il file .pyc, </span> <span style=color:yellow>per poter\
+    \ essere eseguiti direttamente."
+    is_correct: false
+  - text: "I <span style=color:yellow>moduli </span> di Python possono essere <span\
+    \ style=color:yellow>eseguiti col nome preceduto dal parametro -m</span>, invece\
+    \ che fornendo il path completo."
+    is_correct: true
+message_correct: "Congratulazioni, hai letto con profitto il paragrafo, prosegui!"
+message_incorrect: "Riprova rileggendo meglio il paragrafo, magari accettando il suggerimento."
+quiz_header: <h2> Selezionare le affermazioni vere </h2>
+files:
+  - name: main.py
+    visible: true
+  - name: __init__.py
+    visible: false
+local_check: true
