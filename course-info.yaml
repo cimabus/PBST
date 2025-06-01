@@ -16,14 +16,14 @@ content:
 additional_files:
   - name: .idea/inspectionProfiles/Project_Default.xml
   - name: .idea/inspectionProfiles/profiles_settings.xml
+  - name: 2.Usare l'interprete/__init__.py
+  - name: 2.Usare l'interprete/2.1 Operazioni con l'interprete/__init__.py
+  - name: 2.Usare l'interprete/2.2 Modalità scrittura/__init__.py
+  - name: 2.2 Modalità scrittura/__init__.py
+  - name: 2.2 Modalità scrittura/section-info.yaml
   - name: 3.Introduzione informale/__init__.py
   - name: 3.Introduzione informale/3.0 Commenti/__init__.py
   - name: 3.Introduzione informale/3.1 Python come calcolatrice/__init__.py
-  - name: 2.Usare l'interprete/2.1 Operazioni con l'interprete/__init__.py
-  - name: 2.Usare l'interprete/__init__.py
-  - name: 2.2 Modalità scrittura/__init__.py
-  - name: 2.2 Modalità scrittura/section-info.yaml
-  - name: 2.Usare l'interprete/2.2 Modalità scrittura/__init__.py
   - name: LICENSE
   - name: README.md
 yaml_version: 2
