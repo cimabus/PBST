@@ -18,4 +18,7 @@ additional_files:
   - name: .idea/inspectionProfiles/profiles_settings.xml
   - name: LICENSE
   - name: README.md
+  - name: .git/FETCH_HEAD
+  - name: .git/ORIG_HEAD
+  - name: .git/refs/remotes/origin/HEAD
 yaml_version: 3
