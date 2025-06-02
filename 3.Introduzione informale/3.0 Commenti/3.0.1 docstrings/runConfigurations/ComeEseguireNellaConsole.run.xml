@@ -11,13 +11,13 @@
       <env name="PYTHONUNBUFFERED" value="1" />
     </envs>
     <option name="SDK_HOME" value="" />
-    <option name="SDK_NAME" value="Python 3.13 (course_preview)" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.0 Introduzione informale/3.0 Commenti/3.0.1 docstrings" />
+    <option name="SDK_NAME" value="Python 3.13" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.Introduzione informale/3.0 Commenti/3.0.1 docstrings" />
     <option name="IS_MODULE_SDK" value="false" />
     <option name="ADD_CONTENT_ROOTS" value="true" />
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.0 Introduzione informale/3.0 Commenti/3.0.1 docstrings/ComeEseguireNellaConsole.py" />
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.Introduzione informale/3.0 Commenti/3.0.1 docstrings/ComeEseguireNellaConsole.py" />
     <option name="PARAMETERS" value="" />
     <option name="SHOW_COMMAND_LINE" value="false" />
     <option name="EMULATE_TERMINAL" value="false" />

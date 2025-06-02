@@ -1,9 +1,18 @@
 # NON ELIMINARE import __init__
-import os
-import unittest, __init__
+# il riferimento a outputConsole verrà risolto dinamicamente dalla import __init__
+# se si esegue test_task.py con l'interprete
+import __init__
+import sys, os
+import unittest
 from typing import AnyStr
 
-# il riferimento a outputConsole verrà risolto dinamicamente dalla import __init__
+# il riferimento a outputConsole verrà risolto dinamicamente dalla except
+# se eseguito dal check, cioè dall'unittest
+try:
+    from rePatterns import EXP_CON_PARENTESI as EXP_CON_PARENTESI
+except ImportError as ie:
+    print('file:',__file__,'dirpath:',os.path.abspath(os.path.dirname(os.path.dirname(__file__))),sep="\n",end="\n\n")
+    sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 from rePatterns import EXP_CON_PARENTESI as EXP_CON_PARENTESI
 from rePatterns import EXP_SENZA_DIV as EXP_SENZA_DIV
 from rePatterns import EXP_SOLO_NATURALI as EXP_SOLO_NATURALI

@@ -1,0 +1,66 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 576
+        length: 12
+        placeholder_text: "# DA COMPLETARE"
+      - offset: 685
+        length: 87
+        placeholder_text: "# DA COMPLETARE inserire qui la risposta della console python"
+      - offset: 866
+        length: 79
+        placeholder_text: "\"Questa 'parola' è tra apici, quest'altra \\\"parola\\\" invece\
+      \ è tra apici doppi\""
+      - offset: 997
+        length: 36
+        placeholder_text: "# DA COMPLETARE"
+      - offset: 1043
+        length: 87
+        placeholder_text: "# DA COMPLETARE inserisci un prompt a tuo piacere"
+      - offset: 1136
+        length: 89
+        placeholder_text: "# DA COMPLETARE"
+      - offset: 1235
+        length: 77
+        placeholder_text: "# DA COMPLETARE"
+      - offset: 1318
+        length: 60
+        placeholder_text: "# DA COMPLETARE"
+      - offset: 1388
+        length: 1
+        placeholder_text: "# DA COMPLETARE"
+      - offset: 1395
+        length: 64
+        placeholder_text: "# DA COMPLETARE"
+      - offset: 1469
+        length: 80
+        placeholder_text: "# DA COMPLETARE"
+      - offset: 1555
+        length: 115
+        placeholder_text: "# DA COMPLETARE"
+      - offset: 1680
+        length: 28
+        placeholder_text: "# DA COMPLETARE"
+      - offset: 1714
+        length: 18
+        placeholder_text: "# DA COMPLETARE"
+      - offset: 1742
+        length: 25
+        placeholder_text: "# DA COMPLETARE"
+      - offset: 1773
+        length: 13
+        placeholder_text: "# DA COMPLETARE"
+      - offset: 1796
+        length: 26
+        placeholder_text: "# DA COMPLETARE"
+      - offset: 1828
+        length: 14
+        placeholder_text: "# DA COMPLETARE"
+  - name: tests/test_task.py
+    visible: false
+  - name: __init__.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false

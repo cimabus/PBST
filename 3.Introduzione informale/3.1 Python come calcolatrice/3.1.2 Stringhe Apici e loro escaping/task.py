@@ -8,8 +8,8 @@ def outputConsole():
     Per eseguire nella console è possibile eseguire il comando
     `Run File in Python Console' nel menù contestuale dell'editor clicca il bottone destro del mouse
 
-# SVOLGIMENTO: inserire l'output della console ad ognuno dei seguenti prompt
-# autore:inserisci il tuo nome
+# SVOLGIMENTO: inserire l'output della console a ognuno dei seguenti prompt
+# roberto lupo
 
 rl1.1>>>'Questa "parola" è tra doppi apici, quest\'altra \'parola\' invece è tra apici singoli'
 rl1.1'Questa "parola" è tra doppi apici, quest\'altra \'parola\' invece è tra apici singoli'
