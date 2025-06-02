@@ -1,9 +1,15 @@
 import __init__
 import unittest
+import sys, os
 import re
 # la import seguente verrà risolta dinamicamente tramite import __init__
-from task import output_console
-
+# la clausola try serve a evitare l'indicazione statica di unresolved
+# per il modulo task
+try:
+    from task import output_console
+except ImportError:
+    print('file:', __file__,'dir:',os.path.abspath(os.path.dirname(os.path.dirname(__file__))),sep='\n',end='\n\n')
+    sys.path.append(os.path.abspath(os.path.dirname(os.path.dirname(__file__))))
 
 def ricerca_commento(self, regex, pos, msg_err):
     passed = False
@@ -33,17 +39,17 @@ def ricerca_commento(self, regex, pos, msg_err):
 
 
 class TestCase(unittest.TestCase):
-    def test_commento_inizio_riga(self):
+    def test_10_commento_inizio_riga(self):
         pattern = r"^(#)#*[\S|\s]*$"
         passed = ricerca_commento(self, pattern, 1, "la riga non inizia con #")
         self.assertTrue(passed, "non esiste commento")
 
-    def test_commento_dopo_numero(self):
+    def test_20_commento_dopo_numero(self):
         pattern = r"^\d+\s*(#)#*.*$"
         passed = ricerca_commento(self, pattern, 1, "la riga col commento non inizia con un numero")
         self.assertTrue(passed, "non esiste commento")
 
-    def test_commento_dopo_stringa(self):
+    def test_30_commento_dopo_stringa(self):
         pattern1 = r'^".*"\s*(#)#*.*$'
         msg1 = "la riga col commento non inizia con una stringa tra apici doppi"
         pattern2 = r"^'.*'\s*(#)#*.*$"

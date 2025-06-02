@@ -20,10 +20,10 @@ files:
     visible: false
   - name: ComeSalvareOutputTaskInPdf.py
     visible: false
-  - name: runConfigurations/ComeEseguireNellaConsole.run.xml
+  - name: testsConfigurations/ComeEseguireNellaConsole.run.xml
     visible: false
     propagatable: false
-  - name: runConfigurations/ComeSalvareOutputTaskInPdf.run.xml
+  - name: testsConfigurations/ComeSalvareOutputTaskInPdf.run.xml
     visible: false
     propagatable: false
   - name: PyCharm-saveTaskAsPdf.zip
