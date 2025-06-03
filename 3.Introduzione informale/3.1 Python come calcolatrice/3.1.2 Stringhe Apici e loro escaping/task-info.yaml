@@ -4,60 +4,63 @@ files:
     visible: true
     placeholders:
       - offset: 576
-        length: 12
+        length: 41
         placeholder_text: "# DA COMPLETARE"
-      - offset: 685
-        length: 87
+      - offset: 715
+        length: 55
         placeholder_text: "# DA COMPLETARE inserire qui la risposta della console python"
-      - offset: 866
-        length: 79
+      - offset: 859
+        length: 55
         placeholder_text: "\"Questa 'parola' è tra apici, quest'altra \\\"parola\\\" invece\
       \ è tra apici doppi\""
-      - offset: 997
-        length: 36
+      - offset: 961
+        length: 55
         placeholder_text: "# DA COMPLETARE"
-      - offset: 1043
-        length: 87
+      - offset: 1114
+        length: 55
         placeholder_text: "# DA COMPLETARE inserisci un prompt a tuo piacere"
-      - offset: 1136
-        length: 89
+      - offset: 1169
+        length: 0
         placeholder_text: "# DA COMPLETARE"
-      - offset: 1235
-        length: 77
+      - offset: 1258
+        length: 0
         placeholder_text: "# DA COMPLETARE"
-      - offset: 1318
-        length: 60
+      - offset: 1258
+        length: 55
         placeholder_text: "# DA COMPLETARE"
-      - offset: 1388
-        length: 1
+      - offset: 1325
+        length: 0
         placeholder_text: "# DA COMPLETARE"
-      - offset: 1395
-        length: 64
+      - offset: 1325
+        length: 55
         placeholder_text: "# DA COMPLETARE"
-      - offset: 1469
-        length: 80
+      - offset: 1471
+        length: 55
         placeholder_text: "# DA COMPLETARE"
-      - offset: 1555
-        length: 115
+      - offset: 1471
+        length: 55
         placeholder_text: "# DA COMPLETARE"
-      - offset: 1680
-        length: 28
+      - offset: 1565
+        length: 55
         placeholder_text: "# DA COMPLETARE"
-      - offset: 1714
-        length: 18
+      - offset: 1565
+        length: 55
         placeholder_text: "# DA COMPLETARE"
-      - offset: 1742
-        length: 25
+      - offset: 1656
+        length: 55
         placeholder_text: "# DA COMPLETARE"
-      - offset: 1773
-        length: 13
+      - offset: 1656
+        length: 55
         placeholder_text: "# DA COMPLETARE"
-      - offset: 1796
-        length: 26
+      - offset: 1748
+        length: 55
         placeholder_text: "# DA COMPLETARE"
-      - offset: 1828
-        length: 14
+      - offset: 1748
+        length: 55
         placeholder_text: "# DA COMPLETARE"
+      - offset: 1887
+        length: 55
+        placeholder_text: "# TODO"
   - name: tests/test_task.py
     visible: false
   - name: __init__.py
