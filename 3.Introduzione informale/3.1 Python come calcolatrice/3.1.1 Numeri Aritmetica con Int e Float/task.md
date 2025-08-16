@@ -70,4 +70,3 @@ Per sapere come <span class="yel">salvare l'output di un task</span> in un file 
 </p>
 </div>
      
-

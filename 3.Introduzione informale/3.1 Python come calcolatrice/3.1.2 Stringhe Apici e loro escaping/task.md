@@ -6,7 +6,7 @@ Per la teoria <a  href=https://pytutorial-it.readthedocs.io/it/python3.11/introd
 trovi le indicazioni per rispondere agli esercizi.
 
 Per lo svolgimento degli esercizi vedi **la lezione sui commenti**
-in [PythonBaseStandardTutorial\3.Introduzione informale\3.0 Commenti](course://3.0 Introduzione informale/3.0 Commenti/3.0.1 docstrings)
+in [PythonBaseStandardTutorial\3.Introduzione informale\3.0 Commenti](course://3.Introduzione informale/3.0 Commenti/3.0.1 docstrings)
 che spiega
 come [attivare l'interprete](https://drive.google.com/file/d/1Xuy6vo1cvDAQemLDIM3RS_6afwmgdxZm/view?usp=drive_link) ed
 eseguire gli esercizi nella
@@ -43,4 +43,3 @@ Guardare i video clip predisposti:<br><br>
 Per l'esercizio rl2.3  vedi la [clip](https://drive.google.com/file/d/1z_AExpFDx-moeEp52Z9ybtrpaHYmiSrB/view?usp=sharing)
 
 </div>
-
