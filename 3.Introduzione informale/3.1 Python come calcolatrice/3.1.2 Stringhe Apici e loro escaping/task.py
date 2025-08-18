@@ -32,7 +32,7 @@ rl2.2DA COMPLETARE lasciando il tag rl2.2 a inizio riga
 rl2.3>>>print('C:\\Users\name') # inserire nell'output solo l'ultima riga della risposta
 rl2.3DA COMPLETARE lasciando il tag rl2.3 a inizio riga
 
-rl2.4>>>print(r'C:\AppData\Roaming')
+rl2.4>>>print(r'C:\app\fuel')
 rl2.4DA COMPLETARE lasciando il tag rl2.4 a inizio riga
 
 rl2.5>>>print('C:\\\\Users\name')
