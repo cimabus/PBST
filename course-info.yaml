@@ -1,5 +1,5 @@
 type: marketplace
-title: PBST 0.3.1.1 del 31 maggio 2025
+title: PBST 0.3.1.2 del 26 agosto 2025
 language: Italian
 summary: "Corso base sul tutorial standard di Python (versione 0.3.1.1) (https://docs.python.org/3/tutorial/index.html)\
   \ \ntradotto in italiano (https://pytutorial-it.readthedocs.io/it/python3.13/)\n\
@@ -21,4 +21,28 @@ additional_files:
   - name: .git/FETCH_HEAD
   - name: .git/ORIG_HEAD
   - name: .git/refs/remotes/origin/HEAD
-yaml_version: 3
+  - name: .venv/Scripts/activate.bat
+  - name: .venv/Scripts/pythonw.exe
+    is_binary: true
+  - name: .venv/Scripts/pip3.13.exe
+    is_binary: true
+  - name: .venv/Scripts/pip3.exe
+    is_binary: true
+  - name: .venv/Scripts/Activate.ps1
+  - name: .venv/Scripts/deactivate.bat
+  - name: .venv/Scripts/activate
+  - name: .venv/Scripts/activate.fish
+  - name: .venv/Scripts/pip.exe
+    is_binary: true
+  - name: .venv/pyvenv.cfg
+  - name: .venv/.gitignore
+  - name: .venv/Scripts/pygmentize.exe
+    is_binary: true
+  - name: .venv/Scripts/ipython.exe
+    is_binary: true
+  - name: .venv/Scripts/ipython3.exe
+    is_binary: true
+  - name: .venv/Lib/site-packages/ipython_pygments_lexers.py
+  - name: .venv/Lib/site-packages/decorator.py
+  - name: pbst_console.py
+yaml_version: 4

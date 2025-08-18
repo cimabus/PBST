@@ -5,8 +5,8 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 31
-        length: 507
+      - offset: 30
+        length: 409
         placeholder_text: |-
           Ciao questo è un commento particolare che si chiama 'docstring'
               e descrive il funzionamento del programma chiamato 'outputConsole'
