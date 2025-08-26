@@ -5,8 +5,8 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 31
-        length: 577
+      - offset: 30
+        length: 409
         placeholder_text: |-
           Ciao questo è un commento particolare che si chiama 'docstring'
               e descrive il funzionamento del programma chiamato 'outputConsole'
@@ -20,12 +20,6 @@ files:
     visible: false
   - name: ComeSalvareOutputTaskInPdf.py
     visible: false
-  - name: testsConfigurations/ComeEseguireNellaConsole.run.xml
-    visible: false
-    propagatable: false
-  - name: testsConfigurations/ComeSalvareOutputTaskInPdf.run.xml
-    visible: false
-    propagatable: false
   - name: PyCharm-saveTaskAsPdf.zip
     visible: false
     is_binary: true
