@@ -1,21 +1,19 @@
 def output_console():
     """
-import pbst_console as pc
-pc.start()
+
 PyDev console: using IPython 9.4.0
 PYCHARM_PROJECT_ID=724bbcf
-PYCHARM_UUID=f7f1b8d3-374b-3f5e-bb22-00d921d7213f
+PYCHARM_UUID=5c50fe76-07c4-3629-8aa8-444bec70c20f
 PBST_CONSOLE_ID=0be5871e88718ed1
-PBST_UUID=8074ecac-7796-5e04-b0ce-03250e0751f3
+PBST_UUID=dc28efe5-ab9f-5d5b-8d03-fd1b7901b1e6
 USERNAME=rober
 USERDOMAIN=DESKTOP-1UMSUP8
 Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] on win32
-3+4
-Out[2]: 7
-a=4
-b=6
+a=2
+b=3
 a*b
-Out[5]: 24
+Out[4]: 6
+
 
 """
     pass

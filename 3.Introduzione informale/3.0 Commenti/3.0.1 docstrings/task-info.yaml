@@ -5,8 +5,8 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 30
-        length: 409
+      - offset: 31
+        length: 872
         placeholder_text: |-
           Ciao questo è un commento particolare che si chiama 'docstring'
               e descrive il funzionamento del programma chiamato 'outputConsole'
@@ -28,4 +28,10 @@ files:
   - name: PyCharm-runInstruction2PythonConsole.zip
     visible: false
     is_binary: true
+  - name: runConfigurations/ComeEseguireNellaConsole.run.xml
+    visible: false
+    propagatable: false
+  - name: runConfigurations/ComeSalvareOutputTaskInPdf.run.xml
+    visible: false
+    propagatable: false
 solution_hidden: true
