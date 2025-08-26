@@ -13,7 +13,7 @@ Invoca l'interprete (View|ToolWindows|PythonConsole) [puoi impostare uno shortcu
 2. e scrivi al prompt dell'interprete IPython <span class=gil>In[numero riga comando input]</span> una riga di commento <br>
    <span class=yel> es. In[2] # autore nome cognome
 3. un numero ed un commento sulla stessa riga <br> 
-   <span class=yel> es. In[3] 3.14 # numero preferito
+   <span class=yel> es. In[3] 314 # numero preferito
 4. una stringa (sequenza di caratteri racchiusa da apici singoli o doppi) ed un commento sulla stessa riga<br>
    <span class=yel> es. In[4] 'rossonero' # colore preferito
 5. copia l'output della console 

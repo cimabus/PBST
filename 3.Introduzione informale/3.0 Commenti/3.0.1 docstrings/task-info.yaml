@@ -28,10 +28,4 @@ files:
   - name: PyCharm-runInstruction2PythonConsole.zip
     visible: false
     is_binary: true
-  - name: runConfigurations/ComeEseguireNellaConsole.run.xml
-    visible: false
-    propagatable: false
-  - name: runConfigurations/ComeSalvareOutputTaskInPdf.run.xml
-    visible: false
-    propagatable: false
 solution_hidden: true
