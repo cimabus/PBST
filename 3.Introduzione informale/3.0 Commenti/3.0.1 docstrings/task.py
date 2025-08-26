@@ -1,22 +1,28 @@
 def output_console():
     """
-  C:\\Users\\lupoji\\PythonBaseStandardTutorial-v0.4.2\\.venv\\Scripts\\python.exe "C:/Program Files/JetBrains/PyCharm 2025.1/plugins/python-ce/helpers/pydev/pydevconsole.py" --mode=client --host=127.0.0.1 --port=60485
-import sys; print('Python %s on %s' % (sys.version, sys.platform))
-sys.path.extend(['C:\\Users\\lupoji\\PythonBaseStandardTutorial-v0.4'])
-PyDev console: starting.
+import pbst_console as pc
+pc.start()
+PyDev console: using IPython 9.4.0
+PYCHARM_PROJECT_ID=724bbcf
+PYCHARM_UUID=f7f1b8d3-374b-3f5e-bb22-00d921d7213f
+PBST_CONSOLE_ID=0be5871e88718ed1
+PBST_UUID=8074ecac-7796-5e04-b0ce-03250e0751f3
+USERNAME=rober
+USERDOMAIN=DESKTOP-1UMSUP8
 Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] on win32
-# autore : roberto lupo
-888 # numero preferito
-888
-'rossonero' # colore preferito
-'rossonero'
+3+4
+Out[2]: 7
+a=4
+b=6
+a*b
+Out[5]: 24
 
 """
     pass
-
 doc_output_console = output_console.__doc__ # questa istruzione imposta nella variabile
                                             # il valore dell'attributo __doc__
                                             # della funzione 'outputConsole'
                                             # che corrisponde al contenuto della 'docstring'
 print(doc_output_console)  # stampa il valore della variabile sullo console
-
+import pbst_console as pc
+pc.check(doc_output_console) # check sulle variabili di ambiente
