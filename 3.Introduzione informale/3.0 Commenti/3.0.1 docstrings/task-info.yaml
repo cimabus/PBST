@@ -5,13 +5,14 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 31
-        length: 872
-        placeholder_text: |-
-          Ciao questo è un commento particolare che si chiama 'docstring'
-              e descrive il funzionamento del programma chiamato 'outputConsole'
-              che in particolare ha una unica istruzione 'pass' che non esegue nulla
-          Inserisci qui l'output della console python
+      - offset: 30
+        length: 407
+        placeholder_text: "Questo è un commento particolare che si chiama 'docstring'\n\
+      e descrive il funzionamento della funzione 'output_console'\nche ha una unica\
+      \ istruzione 'pass' che non esegue nulla.\nEseguire nella console le istruzioni\
+      \ indicate nella descrizione del task,\n poi inserire qui l'output della console\
+      \ e configurare l'esecuzione \n'Current File' con '3.0.1 docstrings' prima di\
+      \ eseguire il task."
   - name: tests/__init__.py
     visible: false
   - name: tests/test_task.py
