@@ -15,7 +15,7 @@
 **Esempi di commenti e docstring**
 
 Leggi <a href="https://pytutorial-it.readthedocs.io/it/python3.13/introduction.html">l'introduzione informale</a>
-, poi <span class=yel>invoca l'interprete</span> da Tools -> <span class=gre>Python Debug Console</span> ( oppure View -> ToolWindows -> <span class=gre>Python Console</span> ) puoi impostare uno shortcut ( File -> Settings -> Keymap -> Tool Windows -> Python console ) ed <span class=yel>esegui le istruzioni</span> seguenti:
+, poi <span class=yel>invoca l'interprete da console</span> da Tools -> <span class=gre>Python Debug Console</span> ( oppure View -> ToolWindows -> <span class=cya>Python Console</span> ) puoi impostare uno shortcut ( File -> Settings -> Keymap -> Tool Windows -> <span class=cya>Python console</span> ) e <span class=yel>esegui le istruzioni</span> seguenti:
 1. <span class=yel> clicca </span>nell'area di output sul tooltip <span class=gry>Python Console</span> per visualizzare il messaggio di avvio della console interattiva <span class=gil>PyDev console: using IPython 9.4.0</span> insieme ad altre segnalazioni di ambiente;<span class=red> se console standard</span><span class=cya> prompt '>>>'</span> <span class=yel>cambiala selezionando </span><span class=cya>Use IPython </span>da File -> Settings -> Python -> Console -> General settings;
 2. <span class=whi> scrivi </span>al prompt dell'interprete IPython <span class=gil>In[numero di riga del comando]</span> <span class=whi>una riga di commento </span><br>
    <span class=gil> In[2]: </span> <span class=whi># autore nome cognome</span>
