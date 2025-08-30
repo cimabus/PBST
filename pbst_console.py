@@ -14,6 +14,12 @@ vars_list = [
     "USERNAME",
     "USERDOMAIN"
 ]
+def is_ipython():
+    try:
+        __IPYTHON__
+        return True
+    except NameError:
+        return False
 
 def pbst_console_id():
     # Ottieni le variabili di ambiente
@@ -51,6 +57,7 @@ def pbst_console_id():
     os.environ["PBST_UUID"] = f"{custom_uuid}"
 
 def view_vars():
+
     # Stampa solo le variabili specificate, una per riga
     for variabile in vars_list:
         value = os.environ.get(variabile)
@@ -60,9 +67,16 @@ def view_vars():
             print(f"{variabile} non è impostata.")
 
     # versione e piattaforma
-    print('Python %s on %s' % (sys.version, sys.platform),end='\n\n')
+    print('Python %s on %s' % (sys.version, sys.platform))
+
 
 def start():
+    '''
+    Lancia la console IPython e costruisce le variabili di ambiente
+    :return:
+    '''
+    if not is_ipython():
+        raise PbstConsoleError("PBST CONSOLE must IPython not standard console: install IPython and setting it as console if available")
     pbst_console_id()
     view_vars()
 

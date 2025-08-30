@@ -1,5 +1,5 @@
 type: marketplace
-title: PBST 0.3.1.2 del 26 agosto 2025
+title: PBST 0.3.1.2 del 29 agosto 2025
 language: Italian
 summary: "Corso base sul tutorial standard di Python (versione 0.3.1.1) (https://docs.python.org/3/tutorial/index.html)\
   \ \ntradotto in italiano (https://pytutorial-it.readthedocs.io/it/python3.13/)\n\
@@ -45,4 +45,9 @@ additional_files:
   - name: .venv/Lib/site-packages/ipython_pygments_lexers.py
   - name: .venv/Lib/site-packages/decorator.py
   - name: pbst_console.py
+  - name: .venv/Lib/site-packages/parso/python/grammar314.txt
+  - name: .venv/Lib/site-packages/prompt_toolkit/shortcuts/choice_input.py
+  - name: .venv/Lib/site-packages/pip/_internal/models/pylock.py
+  - name: .venv/Lib/site-packages/pip/_internal/commands/lock.py
+  - name: .venv/Lib/site-packages/pip/_internal/req/req_dependency_group.py
 yaml_version: 4
