@@ -4,7 +4,7 @@
     .red { color : red }
     .cyan { color : cyan }
     .wit { color : white ; font-family: "Source Code Pro",monospace; }
-    .gre { color : green ; font-family: "Source Code Pro",monospace; }
+    .cya { color : green ; font-family: "Source Code Pro",monospace; }
 </style>
 **Usare Python come una calcolatrice**
 
