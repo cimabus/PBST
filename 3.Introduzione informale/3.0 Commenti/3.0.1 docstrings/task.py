@@ -1,12 +1,20 @@
 def output_console():
     """
-    Questo è un commento particolare che si chiama 'docstring'
-    e descrive il funzionamento della funzione 'output_console'
-    che ha una unica istruzione 'pass' che non esegue nulla.
 
-    Esegui nella console le istruzioni indicate nella descrizione del
-    task, inserisci qui l'output della console e configura l'esecuzione
-    'Current File' con '3.0.1 docstrings' prima di eseguire il task.
+PyDev console: using IPython 9.5.0
+
+PYCHARM_PROJECT_ID=724bbcf
+PYCHARM_UUID=0d7e1de2-5b27-3347-b8b8-31b96ec58580
+PBST_CONSOLE_ID=0be5871e88718ed1
+PBST_UUID=34cc6aea-4b8d-58f4-bce3-54a64664552c
+USERNAME=rober
+eUSERDOMAIN=DESKTOP-1UMSUP8
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+# autore Roberto Lupo
+888 # numero preferito
+Out[3]: 888
+'rossonero' # colore preferito
+Out[4]: 'rossonero'
     """
     pass
 

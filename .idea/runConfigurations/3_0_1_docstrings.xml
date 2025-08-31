@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="3.0.1 docstrings" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true">
+  <configuration default="false" name="3.0.1 docstrings" type="PythonConfigurationType" factoryName="Python" activateToolWindowBeforeRun="false" show_console_on_std_err="true" show_console_on_std_out="true">
     <module name="PBST" />
     <option name="ENV_FILES" value="" />
     <option name="INTERPRETER_OPTIONS" value="" />

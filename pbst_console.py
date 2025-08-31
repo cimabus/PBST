@@ -64,7 +64,7 @@ def view_vars():
         if value is not None:
             print(f"{variabile}={value}")
         else:
-            print(f"{variabile} non è impostata.")
+            print(f"{variabile} is not setting.")
 
     # versione e piattaforma
     print('Python %s on %s' % (sys.version, sys.platform))
@@ -91,7 +91,14 @@ def check_variabili_ambiente(ds):
     pattern = r"(\w+)=(\S+)" # regex101
     matches = re.findall(pattern, ds)
 
-    # Confronta ogni coppia con le variabili di ambiente
+    # se le variabili PBST non sono tutte presenti in docstring segnalo errore
+    vars_in_docstring = {k for k, v in matches}
+    vars_pbst_presenti: bool = all(k in vars_list for k in vars_in_docstring)
+    if not vars_pbst_presenti:
+        raise PbstConsoleError("PBST vars not all present: check your docstring")
+
+    # Confronta ogni coppia var=val trovata
+    # con le variabili di ambiente
     value: str
     env_value: str
     for var, value in matches:
@@ -99,8 +106,8 @@ def check_variabili_ambiente(ds):
         if var not in vars_list:
             pass
         elif env_value != value:
+            print(f"{var},{value},{env_value}")
             return False
-
     return True
 
 class PbstConsoleError(BaseException):
@@ -110,11 +117,14 @@ class PbstConsoleError(BaseException):
         super().__init__(f"{self.message}")
 
 def check(ds):
+    msgerr = "PBST CONSOLE !!! corrupted !!!!"
+    msgok  = "PBST CONSOLE !!! ok"
     if os.environ.get("PBST_CONSOLE_ID") is None:
         pbst_console_id()
     result = check_variabili_ambiente(ds)
     if not result:
         view_vars()
-        raise PbstConsoleError("PBST CONSOLE !!! corrupted !!!!")
+        print(flush=True)
+        raise PbstConsoleError(msgerr)
     else:
-        print("PBST CONSOLE ended succesfully.")
+        print(msgok)

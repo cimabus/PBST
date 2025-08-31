@@ -16,13 +16,13 @@
 
 Leggi <a href="https://pytutorial-it.readthedocs.io/it/python3.13/introduction.html">l'introduzione informale</a>
 , poi <span class=yel>invoca l'interprete da console</span> da Tools -> <span class=gre>Python Debug Console</span> ( oppure View -> ToolWindows -> <span class=cya>Python Console</span> ) puoi impostare uno shortcut ( File -> Settings -> Keymap -> Tool Windows -> <span class=cya>Python console</span> ) e <span class=yel>esegui le istruzioni</span> seguenti:
-1. <span class=yel> clicca </span>nell'area di output sul tooltip <span class=gry>Python Console</span> per visualizzare il messaggio di avvio della console interattiva <span class=gil>PyDev console: using IPython 9.4.0</span> insieme ad altre segnalazioni di ambiente;<span class=red> se console standard</span><span class=cya> prompt '>>>'</span> <span class=yel>cambiala selezionando </span><span class=cya>Use IPython </span>da File -> Settings -> Python -> Console -> General settings;
-2. <span class=whi> scrivi </span>al prompt dell'interprete IPython <span class=gil>In[numero di riga del comando]</span> <span class=whi>una riga di commento </span><br>
-   <span class=gil> In[2]: </span> <span class=whi># autore nome cognome</span>
+1. <span class=yel> clicca </span>nell'area di output sul tooltip <span class=gry>Python Console</span> per visualizzare il messaggio di avvio della console interattiva <span class=gil>PyDev console: using IPython 9.5.0</span> insieme ad altre segnalazioni di ambiente;<span class=red> se console standard</span><span class=cya> prompt '>>>'</span> <span class=yel>cambiala selezionando </span><span class=cya>Use IPython </span>da File -> Settings -> Python -> Console -> General settings;
+2. <span class=whi> scrivi </span>al prompt dell'interprete IPython <span class=gil>In [numero di riga del comando]</span> <span class=whi>una riga di commento </span><br>
+   <span class=gil> In [2]: </span> <span class=whi># autore nome cognome</span>
 3. un numero ed un commento sulla stessa riga <br> 
-   <span class=gil> In[3]: </span> <span class=whi>314 # numero preferito </span>
+   <span class=gil> In [3]: </span> <span class=whi>314 # numero preferito </span>
 4. una stringa (sequenza di caratteri racchiusa da apici singoli o doppi) e un commento sulla stessa riga<br>
-   <span class=gil> In[3]: </span> <span class=whi>'rossonero' # colore preferito </span>
+   <span class=gil> In [4]: </span> <span class=whi>'rossonero' # colore preferito </span>
 5. <span class=whi>copia l'output</span> della console nella <span class=yel>docstring</span> della funzione <span class=cya>output_console()</span>
    <span class=whi> posiziona il cursore nell'output della console e premi:</span> <br>
    <span class=gil>Ctrl-a</span> per selezionare <br> 
@@ -38,19 +38,19 @@ Leggi <a href="https://pytutorial-it.readthedocs.io/it/python3.13/introduction.h
 <div class=hint>
 <p>
 Per sapere come eseguire un task nella console vedere il video eseguendo lo script 
-<span class=gil>ComeEseguireNellaConsole.py</span> presente nelle configurazioni, ma ci sono delle modifiche rispetto al video: <br>
-    1. al posto della console standard è usata la interattiva IPython;<br>
-    2. la selezione da copiare è da 'PyDev console: using IPython' che compare nel tooltip 'Pyton Console' dentro l'area della console una volta che si è cliccati sopra appena partita la console</p>
+<span class=gil>ComeEseguireNellaConsole.py</span> presente nelle configurazioni, ma <span class=yel>>ci sono differenze rispetto al video</span>: <br>
+    1. <span class=yel>console IPython</span> al posto della standard;<br>
+    2. <span class=yel>riportare da 'PyDev console: using IPython 9.5.0'</span>, dal tooltip della scritta evidenziata 'Pyton Console', visualizzata nella console cliccandola</p>
 <p>
-Per sapere come salvare l'output di un task come file .pdf vedere il video eseguendo lo script 
+Per <span class=yel>salvare l'output di un task come file .pdf</span> vedere il video eseguendo lo script 
 <span class=gil>ComeSalvareOutputTaskInPdf.py</span> presente nelle configurazioni
 </p>
 
-<p> Esempio: <br>
->>> # autore nome e cognome  <br>
->>> 888 # numero preferito<br>
-888<br>
->>> "rosso-nero" # colore preferito <br>
-rosso-nero<br>
+<p> Esempio richiesto: <br>
+<span class=gil>In [2]:</span> # autore nome e cognome  <br>
+<span class=gil>In [3]:</span> <span class=cya>888 </span># numero preferito<br>
+<span class=whi>Out[3]: 888</span><br>
+<span class=gil>In [4]: "rosso-nero"</span> # colore preferito <br>
+<span class=whi>Out[4]: 'rosso-nero'</span><br>
 </p>
 </div>
