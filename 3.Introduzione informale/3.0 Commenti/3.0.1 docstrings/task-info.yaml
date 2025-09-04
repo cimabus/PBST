@@ -6,7 +6,7 @@ files:
     visible: true
     placeholders:
       - offset: 30
-        length: 441
+        length: 439
         placeholder_text: |-
           Questo è un commento particolare che si chiama 'docstring'
           e descrive il funzionamento della funzione 'output_console'

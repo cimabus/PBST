@@ -1,8 +1,21 @@
 type: edu
 files:
-  - name: tests/test_task.py
-    visible: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 30
+        length: 383
+        placeholder_text: |-
+          Questo è un commento particolare che si chiama 'docstring'
+          e descrive il funzionamento della funzione 'output_console'
+          che ha una unica istruzione 'pass' che non esegue nulla.
+          
+          Esegui nella console le istruzioni indicate nella descrizione del
+          task, inserisci qui l'output della console e configura l'esecuzione
+          'Current File' con '3.1.2 Testo' prima di eseguire il task.
   - name: __init__.py
     visible: false
   - name: tests/__init__.py
+    visible: false
+  - name: tests/test_task.py
     visible: false

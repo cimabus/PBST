@@ -1,20 +1,19 @@
 def output_console():
     """
-
 PyDev console: using IPython 9.5.0
-
 PYCHARM_PROJECT_ID=724bbcf
-PYCHARM_UUID=0d7e1de2-5b27-3347-b8b8-31b96ec58580
+PYCHARM_UUID=9f3211ff-fba3-346b-bcaf-80207cc36bb1
 PBST_CONSOLE_ID=0be5871e88718ed1
-PBST_UUID=34cc6aea-4b8d-58f4-bce3-54a64664552c
+PBST_UUID=019063ca-bf28-5403-8408-ee99228c1961
 USERNAME=rober
-eUSERDOMAIN=DESKTOP-1UMSUP8
+USERDOMAIN=DESKTOP-1UMSUP8
 Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
 # autore Roberto Lupo
 888 # numero preferito
 Out[3]: 888
 'rossonero' # colore preferito
 Out[4]: 'rossonero'
+
     """
     pass
 
