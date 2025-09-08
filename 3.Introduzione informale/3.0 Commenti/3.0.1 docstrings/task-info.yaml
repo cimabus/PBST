@@ -31,4 +31,10 @@ files:
   - name: PyCharm-runInstruction2PythonConsole.zip
     visible: false
     is_binary: true
+  - name: PyCharm-runInstruction2PythonConsole.mp4
+    visible: true
+    is_binary: true
+  - name: PyCharm-saveTaskAsPdf.mp4
+    visible: true
+    is_binary: true
 solution_hidden: true

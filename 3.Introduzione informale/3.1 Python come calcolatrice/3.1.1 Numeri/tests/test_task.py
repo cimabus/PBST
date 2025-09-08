@@ -101,6 +101,20 @@ from rePatterns import EXP_LIST_IVA_PATTERN as EXP_LIST_IVA_PATTERN
 import re
 import unittest
 
+def is_valid_assignment(s: str) -> bool:
+    """
+    Verifica se la stringa `s` è un assegnamento valido di una variabile in Python.
+    Esempio valido: "x = 5" o "variabile = funzione()"
+    Esempio non valido: "x =", "5 = x", "print(x)"
+    """
+    # Pattern per un assegnamento valido:
+    # 1. Inizia con un nome di variabile valido (lettere, numeri, underscore, non inizia con numero)
+    # 2. Seguito da " = "
+    # 3. Seguito da un'espressione o funzione (almeno un carattere che non sia solo spazi)
+    pattern = r'^[a-zA-Z_][a-zA-Z0-9_]*\s*=\s*.+$'
+    return bool(re.fullmatch(pattern, s.strip()))
+
+
 # suddivide in righe la stringa multilinea
 #outputConsole.replace('/', '\\') # rimpiazza ogni slash '/' con backslash '\'
 def get_doc_rows():
@@ -222,17 +236,30 @@ def catch_rex_row(self,row,
             break
     # se globs eseguo la riga cosi in caso di assegnamento viene aggiornato globals
     # poi rieseguo solo se non ha dato eccezione sperando sia un'espressione
-    # todo 'pericolo di iniezione codice' inserire check di espressione o assegnamento
+    # 'pericolo di iniezione codice' inserito almeno check di espressione o assegnamento
+    # con eccezione di righe inizianti con 'Out[' e 'Traceback'
     if globs is not None:
         global crr_row_execution_successfully_completed
         try:
             # se shell IPython Out[...]: non ha effetto, cioè vengono considerati i caratteri successivi
+            msg_err = f"L'espressione non è un assegnamento nè contiene operatori aritmetici :\n{row}"
+            self.assertTrue(is_arithmetic_expression(row)
+                         or is_valid_assignment(row)
+                            ,msg_err)
             exec(compile(row, os.devnull, mode='exec'), globs)
             crr_row_execution_successfully_completed = True
             log_pbst(self,f"before _: {_}",DEBUG_LVL)
             log_pbst(self,f"EXEC: {row}",DEBUG_LVL)
             exec(compile(f"_ = {row}", os.devnull, mode='exec'), globs)
             log_pbst(self,f"after _: {_}",DEBUG_LVL)
+        except AssertionError as ae:
+            # solo le seguenti eccezioni sono consentite
+            if     str(row).startswith("Out[")\
+                or str(row).startswith("Traceback"):
+                pass
+            else:
+                crr_row_execution_successfully_completed = False
+                log_pbst(self,ae,CRITICAL_LVL)
         except Exception as exc:
             crr_row_execution_successfully_completed = False
 
@@ -701,7 +728,6 @@ class TestCase(unittest.TestCase):
         self.assertTrue(superati_gli_assert, msg_err)
         log_pbst(self,"ended successfully.\n")
 
-    # todo inserire log_pbst
 
     def test_80_espressione_con_variabili(self):
         globs = globals()
