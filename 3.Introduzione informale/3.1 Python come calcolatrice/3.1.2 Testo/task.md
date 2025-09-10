@@ -1,18 +1,42 @@
-**3.1 Usare Python come una calcolatrice**
+<style> 
+  body { font-size: 15px }
+    .yel { color : yellow }
+    .gil { color : greenyellow }
+    .red { color : red }
+    .cyan { color : cyan }
+    .wit { color : white ; font-family: "Source Code Pro",monospace; }
+    .gre { color : green ; font-family: "Source Code Pro",monospace; }
+    .cya { color : green ; font-family: "Source Code Pro",monospace; }
+</style>
+<style> 
+   body { font-size: 15px}
+    .yel { color : yellow }
+    .gil { color : greenyellow }
+    .red { color : red }
+    .cyan { color : cyan }
+    .wit { color : white ; font-family: "Source Code Pro",monospace; }
+    .gre { color : green ; font-family: "Source Code Pro",monospace; }
+    .cya { color : green ; font-family: "Source Code Pro",monospace; }
+   .gry {
+      background-color: darkgrey; /* Colore dello sfondo */
+      color: black; /* Colore del testo */
+      display: inline; /* Assicurati che lo sfondo si adatti al testo */
+      /* padding: 0 2px; /* Spazio intorno al testo (opzionale) */
+    }
 
-**3.1.2 Apici e loro escaping**
+</style>
 
-Per la teoria <a  href=https://pytutorial-it.readthedocs.io/it/python3.11/introduction.html#stringhe>qui</a>
+<span class=cyan>**3.1 Usare Python come una calcolatrice**</span>
+
+<span class=gil>**3.1.2 Apici e loro escaping**</span>
+
+Per la teoria <a  href=https://pytutorial-it.readthedocs.io/it/python3.13/introduction.html#stringhe>qui</a>
 trovi le indicazioni per rispondere agli esercizi.
 
-Per lo svolgimento degli esercizi vedi **la lezione sui commenti**
-in [PythonBaseStandardTutorial\3.Introduzione informale\3.0 Commenti](course://3.Introduzione informale/3.0 Commenti/3.0.1 docstrings)
-che spiega
-come [attivare l'interprete](https://drive.google.com/file/d/1Xuy6vo1cvDAQemLDIM3RS_6afwmgdxZm/view?usp=drive_link) ed
-eseguire gli esercizi nella
-console, [stampare lo standard output della console python in un file locale](https://drive.google.com/file/d/1EOvc01A_T4QV4BD3pk8Rk4HIw9KyPXj8/view?usp=drive_link),
-svolgere gli esercizi,
-nonchè verificare se l'esercizio è stato svolto correttamente.
+Per lo svolgimento degli esercizi vedi <span class=cyan>**la lezione sui commenti**</span>
+<a href="course://3.Introduzione informale/3.0 Commenti/3.0.1 docstrings"><span class=gil>3.0.1 docstrings</span></a> che spiega come [attivare l'interprete ](https://drive.google.com/file/d/1Xuy6vo1cvDAQemLDIM3RS_6afwmgdxZm/view?usp=drive_link) <span class=cyan>(link in dominio ITT Molinari)</span> ed eseguire gli esercizi nella
+console, [stampare lo standard output della console python in un file locale ](https://drive.google.com/file/d/1EOvc01A_T4QV4BD3pk8Rk4HIw9KyPXj8/view?usp=drive_link)<span class=cyan>(link in dominio ITT Molinari)</span>,
+svolgere gli esercizi e verificata la correttezza con il check <span class=yel>rieseguire il task nominandolo</span> nella configurazione col suo nome <span class=yel>'3.1.2 Testo'</span> e stamparlo.</span>
 
 Svolgere nella console e poi riportare nel placeholder indicato in task.py l'output della console:
 <br><br>

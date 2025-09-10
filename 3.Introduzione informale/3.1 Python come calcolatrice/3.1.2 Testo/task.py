@@ -1,12 +1,12 @@
-def outputConsole():
+def output_console():
     """
-        Questo è un commento particolare che si chiama 'docstring'
-    e descrive il funzionamento del programma chiamato 'outputConsole'
-    che in particolare ha una unica istruzione 'pass' che non esegue nulla.
-    Inserisci qui l'intero output della console escludendo la prima riga!
-    Attenzione:
-    Per eseguire nella console è possibile eseguire il comando
-    `Run File in Python Console' nel menù contestuale dell'editor clicca il bottone destro del mouse
+  Questo è un commento particolare che si chiama 'docstring'
+  e descrive il funzionamento della funzione 'output_console'
+  che ha una unica istruzione 'pass' che non esegue nulla.
+
+  Esegui nella console le istruzioni indicate nella descrizione del
+  task, inserisci qui l'output della console e configura l'esecuzione
+  'Current File' con '3.1.1 Numeri' prima di eseguire il task.
 
 # SVOLGIMENTO: inserire l'output della console a ognuno dei seguenti prompt
 # DA COMPLETARE: inserire il nome e cognome
@@ -47,5 +47,13 @@ rl2.7DA COMPLETARE lasciando il tag rl2.7 a inizio riga
     pass
 
 
-outputConsole.__doc__  # questa scrittura invoca la variabile, detta anche proprietà, '__doc__' dell'oggetto 'outputConsole' che viene impostata al suo 'docstring'
-outputConsole()  # questa scrittura invoca la funzione outputConsole che presenta l'istruzione di impostzione della propria 'docstring' '__doc__' e la 'pass' che non fa nulla
+# questa istruzione imposta nella variabile il valore dell'attributo __doc__
+# della funzione 'output_console' che corrisponde al contenuto della 'docstring'
+doc_output_console = output_console.__doc__
+print(doc_output_console)
+
+# dal modulo importa solo la funzione e quelle a lei collegate
+from pbst_console import check
+
+# check di validità della console PBST
+check(doc_output_console)

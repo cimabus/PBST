@@ -37,26 +37,27 @@ EXP_RIS_INT = r"^Out\[\d+\]:\s*(-?\d+)\s*$"
 EXP_RIS_FLOAT = r"^Out\[\d+\]:\s*(-?\d+\.\d+)\s*$"
 # Out[9999] = 232330.0
 #-------------------------------------------------------------------------------
-# https://regex101.com/r/TdZ1Mk/3
+# https://regex101.com/r/TdZ1Mk/4
 #
-EXP_CON_DIV_TRONCATA = r"^(([+\-\x20]*\d+\x20*)+|//|\*|)*$"
+EXP_CON_DIV_TRONCATA = r"^(.*\/\/.*)$"
 # 7 // 3 + 4*3-4// -7
 # 1 + 4 - 5 # falso positivo
 # #-------------------------------------------------------------------------------
-# https://regex101.com/r/cL3WlR/1
-EXP_UND_CON_DIV_IN_MOD = r"^_(([+\-\s]*\d+\s*)+|\s*%\s*|([*+\-])*)*$"
-# _ + 17 % 5
+# https://regex101.com/r/cL3WlR/4
+EXP_UND_CON_DIV_IN_MOD = r"(.*_*%.*|.*%.*_.*)"
+# _ * 7 % 5
 # #-------------------------------------------------------------------------------
-# https://regex101.com/r/i6ML5Y/2
-EXP_ASS_INT = r"^([a-zA-Z].*\x20*=\x20*([0-9]+)\x20*)$"
+# https://regex101.com/r/i6ML5Y/3
+EXP_ASS_INT = r"^([a-zA-Z].*\x20*=\x20*([0-9]+)\x20[;#]*.*)$"
 # base = 16
 #---------------------------------------------------------------------------------
-# https://regex101.com/r/DGY4nb/3
-EXP_ASS_EXP_INT = r"^(?:[a-zA-Z].*\x20*=)([\x20*0-9\-+*/]*)$"
+# https://regex101.com/r/DGY4nb/4
+# intercetta il secondo membro interamente, poi controlla con una funzione se espressione aritmetica
+EXP_ASS_EXP_INT = r"^[a-zA-Z].*\x20*=(.*)$"
 # altezza = 3 + 1
 #---------------------------------------------------------------------------------
-# https://regex101.com/r/lNjAs6/3
-EXP_CON_VARIABILI = r"^([+\-\x20]*[a-zA-Z_]+[0-9a-zA-Z_]*\x20*[\-*+/]*\x20*)*$"
+# https://regex101.com/r/lNjAs6/4
+EXP_CON_VARIABILI = r"^(?!.*=)(?=.*[+\-*/%])(?=.*[a-zA-Z]).+$"
 # base * altezza
 # - + +aew3_   * / + err3
 # 1 + 2*3 * -4 -2
@@ -99,9 +100,9 @@ EXP_LIST_IVA_MSG_ERR = ["calcola iva : iva non presente"
                         ]
 EXP_LIST_IVA_PATTERN = [r"iva\x20*=\x20*.*\n"
                         ,r"prezzo\x20*=\x20*.*\n"
-                        ,r"prezzo\x20*\*\x20*iva\n|\x20*iva\x20*\*\x20*prezzo\n"
+                        ,r"prezzo\x20*\*\x20*iva.*\n|\x20*iva\x20*\*\x20*prezzo.*\n"
                         ,r"Out\[\d+\]:\x20\d{1,2}\.\d{1,3}\n"
-                        ,r"prezzo\x20*\+\x20*_\n|\x20*_\x20*\+\x20*prezzo\n"
+                        ,r"prezzo\x20*\+\x20*_.*\n|\x20*_\x20*\+\x20*prezzo.*\n"
                         ,r"Out\[\d+\]:\x20\d{3}\.\d{1,3}\n"
                         ]
 # 1 + 2* -3 * -4 -2
